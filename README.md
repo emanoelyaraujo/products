@@ -1,6 +1,10 @@
 # products
 Cadastro de Produtos e Tags
 
+Para visualizar o projeto basta criar um Virtual Host com o caminho do projeto da pasta raiz
+
+****************************************************
+
 SQL BASE DO PROJETO
 
 CREATE TABLE `product` (<br>
@@ -39,4 +43,3 @@ CRUD DE TAGS
 
 SQL DO RELATÓRIO
 SELECT count(distinct(product_id)) FROM product_tag
-
